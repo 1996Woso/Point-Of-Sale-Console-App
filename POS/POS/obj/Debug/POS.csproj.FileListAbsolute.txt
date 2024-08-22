@@ -1,0 +1,7 @@
+C:\Users\10114629\source\repos\Eviwe\POS\POS\obj\Debug\POS.csproj.AssemblyReference.cache
+C:\Users\10114629\source\repos\Eviwe\POS\POS\obj\Debug\POS.csproj.CoreCompileInputs.cache
+C:\Users\10114629\source\repos\Eviwe\POS\POS\bin\Debug\POS.exe.config
+C:\Users\10114629\source\repos\Eviwe\POS\POS\bin\Debug\POS.exe
+C:\Users\10114629\source\repos\Eviwe\POS\POS\bin\Debug\POS.pdb
+C:\Users\10114629\source\repos\Eviwe\POS\POS\obj\Debug\POS.exe
+C:\Users\10114629\source\repos\Eviwe\POS\POS\obj\Debug\POS.pdb
