@@ -65,9 +65,9 @@ namespace POS
             AddProduct(product_list, 7, "Oranges", 31.99, true);
             //declaring and intialising the following variables
             int customerId_input;
-            bool valid_customerId_input = false;
+            bool valid_customerId_input = true;
             int productId_input;
-            bool valid_productId_input = false;
+            bool valid_productId_input = true;
             double grand_total = 0;//Grand total
             double original_amount = 0;//Original amount
             double discounted_amount = 0;//Discounted amount
@@ -80,7 +80,7 @@ namespace POS
                     var selected_customer = customer_list.Find(c => c.Customer_Id == customerId_input);//Finds the customer by using Customer_Id
                     if (selected_customer != null)//Returns true if customer is found on the customer_list
                     {
-                        valid_customerId_input = true;//You no longer have option to enter Customer_Id since customer is found.
+                        valid_customerId_input = false;//You no longer have option to enter Customer_Id since customer is found.
                         while (!valid_productId_input)//this while loop allows user to select multiple products unless fonfirmed the last product
                         {
                             //Declares and initialises the price and dicount of the selected product
@@ -116,7 +116,7 @@ namespace POS
                             }
                             else if(input.ToLower() == "done")//When user confirms the last product will no longer select another product
                             {
-                                valid_productId_input = true;
+                                valid_productId_input = false;
                             }
                         }
                     }
